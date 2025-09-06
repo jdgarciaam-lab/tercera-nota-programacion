@@ -6,7 +6,6 @@ public class EjercicioPract {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Solicitar tres números al usuario
         System.out.print("Ingrese el primer número: ");
         int num1 = sc.nextInt();
 
@@ -16,7 +15,6 @@ public class EjercicioPract {
         System.out.print("Ingrese el tercer número: ");
         int num3 = sc.nextInt();
 
-        // Verificar condición: primero > segundo Y primero < tercero
         if (num1 > num2 && num1 < num3) {
             System.out.println("✅ El primer número (" + num1 + ") es mayor que el segundo (" + num2 + ") y menor que el tercero (" + num3 + ").");
         } else {
